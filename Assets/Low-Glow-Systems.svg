@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="tr" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-labelledby="title desc">
+  <title id="title">LOW-GLOW SYSTEMS — ÖZCAN BAYRAKTAR</title>
+  <desc id="desc">Sistem, Altyapı ve Bilgi Güvenliği Uzmanı ÖZCAN BAYRAKTAR; insan, teknoloji ve çevre dengesini gözeten, tam siyah zemin ve ölçülü renk yelpazesiyle sade ve okunaklı kalmayı hedefleyen OLED odaklı tasarım.</desc>
+  <rect width="1200" height="440" fill="#000000"/>
+
+  <!-- Identity rail -->
+  <text x="52" y="43" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="2.1">01 / VISUAL SYSTEM</text>
+  <rect x="1026" y="22" width="122" height="31" rx="15.5" fill="#101713" stroke="#242C27"/>
+  <circle cx="1045" cy="37.5" r="3.5" fill="#9DBFA8"/>
+  <text x="1057" y="42" fill="#C5CDC8" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="12" font-weight="600" textLength="75" lengthAdjust="spacing">TRUE BLACK</text>
+
+  <!-- Main statement -->
+  <text x="52" y="119" fill="#C5CDC8" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="58" font-weight="600" letter-spacing="-2.2">ÖZCAN BAYRAKTAR</text>
+  <text x="54" y="158" fill="#AEB7B1" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="18" font-weight="400">Sistem, Altyapı ve Bilgi Güvenliği Uzmanı</text>
+
+  <!-- Abstract, static systems map: no filters, animation, or external resources -->
+  <g aria-hidden="true" fill="none" stroke="#242C27" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M822 76 H896 V104 H951"/>
+    <path d="M896 104 V142 H1012 V119 H1090"/>
+    <path d="M951 104 V78 H1032"/>
+    <path d="M1012 142 H1070 V174 H1125"/>
+    <path d="M1090 119 V82 H1131"/>
+    <path d="M896 142 H865 V169 H918"/>
+  </g>
+  <g aria-hidden="true" fill="#000000" stroke="#9DBFA8" stroke-width="1.8">
+    <circle cx="822" cy="76" r="4.2"/>
+    <circle cx="951" cy="104" r="4.2"/>
+    <circle cx="1032" cy="78" r="4.2"/>
+    <circle cx="1090" cy="119" r="4.2"/>
+    <circle cx="1125" cy="174" r="4.2"/>
+    <circle cx="918" cy="169" r="4.2"/>
+  </g>
+  <g aria-hidden="true" fill="#9AA49E">
+    <circle cx="896" cy="104" r="2.2"/>
+    <circle cx="896" cy="142" r="2.2"/>
+    <circle cx="1012" cy="142" r="2.2"/>
+    <circle cx="1070" cy="142" r="2.2"/>
+  </g>
+
+  <path d="M52 198 H1148" stroke="#242C27" stroke-width="1"/>
+
+  <!-- Selected work -->
+  <text x="52" y="229" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="1.8">02 / FOCUS AREAS</text>
+  <rect x="52.5" y="248.5" width="574" height="137" rx="8" fill="#080B09" stroke="#242C27"/>
+  <text x="76" y="278" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="1.3">SETUP / SYSTEM / SERVICE</text>
+  <text x="76" y="315" fill="#C5CDC8" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="21" font-weight="600">BT Hizmet Yönetimi, Operasyon ve Süreklilik</text>
+  <text x="76" y="345" fill="#AEB7B1" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="15">"Önce kök neden, daima kalıcı çözüm."</text>
+  <g font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="600">
+    <a xlink:href="https://www.linkedin.com/in/bayraktarozcan/" href="https://www.linkedin.com/in/bayraktarozcan/"><text x="76" y="368" fill="#9DBFA8">LinkedIn ↗</text></a>
+  </g>
+
+  <!-- Design palette -->
+  <text x="674" y="229" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" font-weight="600" letter-spacing="1.8">03 / FOUNDATION PALETTE</text>
+  <g font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif">
+    <rect x="674" y="250" width="76" height="46" rx="5" fill="#000000" stroke="#404844"/>
+    <text x="674" y="316" fill="#C5CDC8" font-size="14" font-weight="500">Siyah</text>
+    <text x="674" y="335" fill="#9AA49E" font-size="12">#000000</text>
+
+    <rect x="770" y="250" width="76" height="46" rx="5" fill="#080B09" stroke="#404844"/>
+    <text x="770" y="316" fill="#C5CDC8" font-size="14" font-weight="500">Yüzey</text>
+    <text x="770" y="335" fill="#9AA49E" font-size="12">#080B09</text>
+
+    <rect x="866" y="250" width="76" height="46" rx="5" fill="#C5CDC8" stroke="#404844"/>
+    <text x="866" y="316" fill="#C5CDC8" font-size="14" font-weight="500">Metin</text>
+    <text x="866" y="335" fill="#9AA49E" font-size="12">#C5CDC8</text>
+
+    <rect x="962" y="250" width="76" height="46" rx="5" fill="#9AA49E" stroke="#404844"/>
+    <text x="962" y="316" fill="#C5CDC8" font-size="14" font-weight="500">İkincil</text>
+    <text x="962" y="335" fill="#9AA49E" font-size="12">#9AA49E</text>
+
+    <rect x="1058" y="250" width="76" height="46" rx="5" fill="#9DBFA8" stroke="#404844"/>
+    <text x="1058" y="316" fill="#C5CDC8" font-size="14" font-weight="500">Vurgu</text>
+    <text x="1058" y="335" fill="#9AA49E" font-size="12">#9DBFA8</text>
+  </g>
+
+  <path d="M52 408 H1148" stroke="#242C27" stroke-width="1"/>
+  <text x="52" y="427" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.45">SECURE BY DEFAULT  ·  RELIABLE BY DESIGN  ·  ROOT CAUSE FIRST  ·  ALWAYS UP-TO-DATE</text>
+  <text x="1148" y="427" text-anchor="end" fill="#9AA49E" font-family="system-ui, -apple-system, Inter, 'Segoe UI', sans-serif" font-size="14" letter-spacing="0.45">LOW-GLOW SYSTEMS</text>
+</svg>

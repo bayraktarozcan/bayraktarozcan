@@ -1,0 +1,21 @@
+﻿# Secret scanning on GitLab CI. Mirrors the GitHub secret-scan workflow with
+# stock tooling only: pinned, checksum-verified gitleaks binary, full clone.
+# Weekly runs need a pipeline schedule object (UI/API); this file covers pushes.
+stages: [scan]
+
+variables:
+  GITLEAKS_VERSION: 8.30.1
+  GITLEAKS_SHA256: 551f6fc83ea457d62a0d98237cbad105af8d557003051f41f3e7ca7b3f2470eb
+  GIT_DEPTH: 0
+
+secret-scan:
+  stage: scan
+  image: ubuntu:24.04
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  script:
+    - apt-get update && apt-get install -y --no-install-recommends curl ca-certificates tar
+    - curl -sSLo gitleaks.tar.gz "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz"
+    - echo "${GITLEAKS_SHA256}  gitleaks.tar.gz" | sha256sum -c -
+    - tar -xzf gitleaks.tar.gz gitleaks
+    - ./gitleaks detect --source . --verbose --redact
